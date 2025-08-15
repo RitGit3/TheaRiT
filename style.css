@@ -3,7 +3,6 @@ body{
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: lightgray;
-    transform: scale(0.9);
 }
 
 html{
@@ -1139,5 +1138,6 @@ footer h1{
         filter: blur(20px);
     }
 }
+
 
 
