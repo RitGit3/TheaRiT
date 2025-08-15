@@ -51,9 +51,7 @@ header{
 
 .left img{
     width: 40px;
-    margin: 15px;
-    height: auto;
-    display: block;
+    margin: 0 15px;
 }
 
 header ul{
@@ -1139,6 +1137,7 @@ footer h1{
         filter: blur(20px);
     }
 }
+
 
 
 
