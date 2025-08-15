@@ -233,6 +233,40 @@ header ul a:hover {
     animation-delay: 0.5s;
 }
 
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    min-width: 120px;
+    gap: 15px;
+}
+
+.info-card h1 {
+    font-size: 80px;
+    background: linear-gradient(to right, #008baa, #7e42a7, #6600c5, #6070fd, #2a46ff, #0099ff, #008ead);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+    margin: 0;
+}
+
+.info-card p {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    line-height: 1.2;
+}
+
 @keyframes scroll-down {
     0% {
         opacity: 0;
@@ -420,6 +454,26 @@ header ul a:hover {
     .info-cards .card h1{
         font-size: 20px;
     }
+
+    .about-section{
+        padding: 1%;
+        flex-wrap: wrap;
+        gap: 100p;
+    }
+
+    .info-card{
+        min-width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .info-card h1{
+        font-size: 55px;
+    }
+
+    .info-card p{
+        font-size: 22px;
+    }
+
     .card:nth-child(3) h1{
         bottom: 25%;
     }
@@ -1084,5 +1138,3 @@ footer h1{
         filter: blur(20px);
     }
 }
-
-
