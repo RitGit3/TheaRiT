@@ -26,6 +26,9 @@ html{
     bottom: 0;
     z-index: -1;
     mix-blend-mode: lighten;
+    height: 50%;
+    width: auto;
+    object-fit: cover;
 }
 
 header{
@@ -1083,4 +1086,5 @@ footer h1{
         filter: blur(20px);
     }
 }
+
 
